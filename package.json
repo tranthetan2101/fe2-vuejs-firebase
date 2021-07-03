@@ -1,0 +1,63 @@
+{
+  "name": "fe2-woo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "svg": "vsvg -s /path/to/svg/source -t /path/to/icon/components"
+  },
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "core-js": "^3.6.5",
+    "firebase": "^7.6.1",
+    "jquery": "^3.6.0",
+    "node-sass": "^4.14.1",
+    "popper.js": "^1.16.1",
+    "sass-loader": "^7.2.0",
+    "vue": "^2.6.11",
+    "vue-carousel": "^0.18.0",
+    "vue-firestore": "^0.3.30",
+    "vue-plain-pagination": "^0.3.0",
+    "vue-plugin-load-script": "^1.3.2",
+    "vue-router": "^3.5.1",
+    "vue2-editor": "^2.6.6",
+    "vue2-filters": "^0.12.0",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "^3.3.1",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "sweetalert2": "^11.0.16",
+    "vue-stripe-elements-plus": "^1.0.1",
+    "vue-svgicon": "^3.2.9",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "description": "## Project setup ``` npm install ```",
+  "main": "babel.config.js",
+  "author": "",
+  "license": "ISC"
+}
